@@ -7,7 +7,8 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerMoveController : MonoBehaviour
 {
     [Tooltip("Im ms^-1")] [SerializeField] public float speed = 10;
-    [Tooltip("Im m")] [SerializeField] public float borders = 10;
+    [Tooltip("Im m")] [SerializeField] public float bordersTopBottom = 10;
+    [Tooltip("Im m")] [SerializeField] public float bordersLeftRight = 10;
     [SerializeField] public float positionPitchFactor = -3;
     [SerializeField] public float controlPitchFactor = -15;
     [SerializeField] public float positionYawFactor =  5;
@@ -32,12 +33,12 @@ public class PlayerMoveController : MonoBehaviour
      */
     private void ProcessTranslation()
     {
-        var clampedXPos = CalculateClampedPos("Horizontal", transform.localPosition.x);
-        var clampedYPos = CalculateClampedPos("Vertical", transform.localPosition.y);
+        var clampedXPos = CalculateClampedPos("Horizontal", transform.localPosition.x, bordersLeftRight);
+        var clampedYPos = CalculateClampedPos("Vertical", transform.localPosition.y, bordersTopBottom);
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
 
-    private float CalculateClampedPos(string axisName, float localPosition)
+    private float CalculateClampedPos(string axisName, float localPosition, float borders)
     {
         float moveThrow = CrossPlatformInputManager.GetAxis(axisName);
         float offset = moveThrow * speed * Time.deltaTime;
