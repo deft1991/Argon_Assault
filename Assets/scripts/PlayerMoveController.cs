@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerMoveController : MonoBehaviour
@@ -11,7 +8,7 @@ public class PlayerMoveController : MonoBehaviour
     [Tooltip("Im m")] [SerializeField] public float bordersLeftRight = 10;
     [SerializeField] public float positionPitchFactor = -3;
     [SerializeField] public float controlPitchFactor = -15;
-    [SerializeField] public float positionYawFactor =  5;
+    [SerializeField] public float positionYawFactor = 5;
     [SerializeField] public float controlRollFactor = -20;
 
     // Start is called before the first frame update
