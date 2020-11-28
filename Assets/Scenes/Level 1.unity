@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1 &65637210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1048570700629992, guid: 8e35ec7e332c3d243ac23e3686bafe01, type: 3}
@@ -192,6 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1001 &67685697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266,6 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &140290120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -422,6 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &267364684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -453,6 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &292583731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1156,6 +1161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1001 &763884213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1271,11 +1277,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8e35ec7e332c3d243ac23e3686bafe01, type: 3}
---- !u!1 &884889064 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1767033844225240815, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
-  m_PrefabInstance: {fileID: 1441815670}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &886492732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8f445961f3af4734eab6b615aef5f1e5, type: 3}
@@ -1356,6 +1357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1 &971067316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &988956192
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1507,6 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1066655563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1538,6 +1542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!4 &1135433749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4376252303983936, guid: 8e35ec7e332c3d243ac23e3686bafe01, type: 3}
@@ -1618,6 +1623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1163549722
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1649,6 +1655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1198929803
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1737,6 +1744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!4 &1287214772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4154595508381948, guid: 6d18ca3ac0d2ecd4aa99a8099af486bb, type: 3}
@@ -1789,6 +1797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1317387037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1855,6 +1864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!4 &1362791730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4376252303983936, guid: 8e35ec7e332c3d243ac23e3686bafe01, type: 3}
@@ -1877,6 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1375167170
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2068,6 +2079,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1767033844225240815, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
+      propertyPath: m_Name
+      value: Player Death FX
+      objectReference: {fileID: 0}
     - target: {fileID: 1767033844225240819, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -2127,7 +2142,7 @@ PrefabInstance:
     - target: {fileID: 2674287206161488054, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
       propertyPath: deathEffects
       value: 
-      objectReference: {fileID: 884889064}
+      objectReference: {fileID: 1441815671}
     - target: {fileID: 2674287206161488054, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
       propertyPath: sceneLoader
       value: 
@@ -2190,6 +2205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
+--- !u!1 &1441815671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1767033844225240815, guid: 2523108f193ac481682e6dafc7771b16, type: 3}
+  m_PrefabInstance: {fileID: 1441815670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1452029689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2333,6 +2353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1 &1503446076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1 &1650435314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2792,6 +2814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1781237911
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2853,6 +2876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1861486840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3052,6 +3076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!64 &1989502022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3236,6 +3261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374a20c4950b6453388d3c73713b3c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1532321372302652476, guid: a678c1943d8b448d6be06bd8eb22af39, type: 3}
 --- !u!1001 &1106016190410373413
 PrefabInstance:
   m_ObjectHideFlags: 0
