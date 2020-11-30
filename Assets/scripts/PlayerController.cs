@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [Tooltip("Im m")] [SerializeField] public float bordersTopBottom = 10;
     [Tooltip("Im m")] [SerializeField] public float bordersLeftRight = 10;
+    [SerializeField] private GameObject[] guns;
 
     [Header("Screen-position Based")] [SerializeField]
     public float positionPitchFactor = -3;
@@ -34,6 +35,7 @@ public class PlayerController : MonoBehaviour
         {
             ProcessTranslation();
             ProcessRotation();
+            ProcessFiring();
         }
     }
 
@@ -91,6 +93,34 @@ public class PlayerController : MonoBehaviour
     private float CalculateRoll()
     {
         return CrossPlatformInputManager.GetAxis("Horizontal") * controlRollFactor;
+    }
+    
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ActivateGuns();
+        }
+        else
+        {
+            DeactivateGuns();
+        }
+    }
+
+    private void ActivateGuns()
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(true);
+        }
+    }
+
+    private void DeactivateGuns()
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(false);
+        }
     }
 
     #endregion
