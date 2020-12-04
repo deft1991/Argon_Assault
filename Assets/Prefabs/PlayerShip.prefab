@@ -2033,6 +2033,7 @@ MonoBehaviour:
   speed: 20
   bordersTopBottom: 8
   bordersLeftRight: 14
+  guns: []
   positionPitchFactor: -3
   positionYawFactor: 4
   controlPitchFactor: -15
